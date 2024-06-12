@@ -3,7 +3,7 @@ import { Outlet } from "react-router-dom";
 const ReactRouter = () => {
 	return (
 		<div>
-			ReactRouter <Outlet />
+			Page for React Router <Outlet />
 		</div>
 	);
 };
