@@ -8,6 +8,7 @@ import ErrorPage from "./error";
 import Topic from "./topic/topic";
 import ConditionalRendering from "./topic/conditional_render";
 import ReactRouter from "./topic/react_router";
+import Context from "./topic/context";
 
 const routes: RouteObject[] = [
 	{
@@ -22,6 +23,10 @@ const routes: RouteObject[] = [
 			{
 				path: "/router",
 				element: <ReactRouter />,
+			},
+			{
+				path: "/context",
+				element: <Context />,
 			},
 		],
 	},
