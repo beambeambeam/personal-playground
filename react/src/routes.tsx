@@ -9,6 +9,7 @@ import Topic from "./topic/topic";
 import ConditionalRendering from "./topic/conditional_render";
 import ReactRouter from "./topic/react_router";
 import Context from "./topic/context";
+import ZustandWrapper from "./topic/zustand";
 
 const routes: RouteObject[] = [
 	{
@@ -27,6 +28,10 @@ const routes: RouteObject[] = [
 			{
 				path: "/context",
 				element: <Context />,
+			},
+			{
+				path: "/zustand",
+				element: <ZustandWrapper />,
 			},
 		],
 	},
